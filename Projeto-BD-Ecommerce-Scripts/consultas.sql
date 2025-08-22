@@ -16,3 +16,4 @@ LEFT JOIN Entrega e ON p.IdPedido = e.IdPedido;
 SELECT co.IdConta, pa.TipoPagamento, pa.Detalhes
 FROM Conta co
 LEFT JOIN Pagamento pa ON co.IdConta = pa.IdConta;
+
